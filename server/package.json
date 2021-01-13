@@ -8,8 +8,7 @@
     "url": "https://github.com/mcgivrer/vuejs.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel start index.html"
+    "start": "node server.js"
   },
   "author": "Frédéric Delorme",
   "license": "MIT",

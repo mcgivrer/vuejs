@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280px, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+      integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+      crossorigin="anonymous"
+    />
+    <title>how-to VueJS - Contacts</title>
+    <style>
+      .main.container {
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ui inverted fixed menu">
+      <div class="header item"><a href="#contacts">Contacts</a></div>
+    </div>
+    <div class="ui main container" id="app">
+      <div class="ui message" :class="status.code=200?'sucess':'error'" v-if="status.code=200?true:false">
+        <i class="close icon" v-on:click="close"></i>
+        <p>{{status.message}}</p>
+      </div>
+      <div class="ui link cards">
+          <card v-for="person in contacts" v-bind:person="person" v-bind:key="person.key"/>
+        </div>
+      </div>
+    </div>
+        <script type="module" src="js/app.js"></script>
+  </body>
+</html>

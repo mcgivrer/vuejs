@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "Watch_Dogs",
+        "cover": {
+            "xone": "images/games/1-watch_dogs-xone.jpg",
+            "ps4": "images/games/1-watch_dogs-ps4.jpg"
+        },
+        "editor": "Ubisoft",
+        "year": "2014"
+    }
+]

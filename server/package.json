@@ -1,0 +1,21 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "A small Contact application",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel start index.html"
+  },
+  "author": "Frédéric Delorme",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

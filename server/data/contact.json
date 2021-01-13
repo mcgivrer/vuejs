@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "firstname": "Frédéric",
+        "lastname": "Delorme",
+        "avatar": "images/contact/1.JPG",
+        "relationType": "Familly",
+        "joinedAt": "1973",
+        "friendsCount": 3,
+        "description": "Fred is a man enjoying life and a curious people",
+        "friends": [
+            2,
+            3,
+            4
+        ],
+        "preferred":{
+            "game":"game:1",
+            "movie":"movie:1"
+        }
+    },
+    {
+        "id": 2,
+        "firstname": "Nathalie",
+        "lastname": "Delorme",
+        "avatar": "images/contact/2.JPG",
+        "relationType": "Familly",
+        "joinedAt": "1980",
+        "friendsCount": 3,
+        "description": "Nath is a super wife with a lot a love to distribute to his familly and love every thing about craft",
+        "friends": [
+            1,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 3,
+        "firstname": "Mathys",
+        "lastname": "Delorme",
+        "avatar": "images/contact/3.JPG",
+        "relationType": "Familly",
+        "joinedAt": "2007",
+        "friendsCount": 3,
+        "description": "Mathys is a calm boy with a very curious mind about everything.",
+        "friends": [
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": 4,
+        "firstname": "Solène",
+        "lastname": "Delorme",
+        "avatar": "images/contact/4.JPG",
+        "relationType": "Familly",
+        "joinedAt": "2010",
+        "friendsCount": 3,
+        "description": "Solène is a funny little girl with lot of energy",
+        "friends": [
+            1,
+            2,
+            3
+        ]
+    }
+]

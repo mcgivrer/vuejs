@@ -16,9 +16,9 @@
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "dev":"parcel index.html",
-    "start": "npm start index.html",
-    "build" :"parcel build index.html"
+    "dev":"parcel app/index.html",
+    "start": "npm start app/index.html",
+    "build" :"parcel build app/index.html"
   },
   "author": "Frédéric Delorme",
   "license": "MIT"
